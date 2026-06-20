@@ -16,7 +16,7 @@ jobs:
    - name: Install Dependencies
      run: npm install
    - name: Run Unit Tests
-     run: npm test dsfkjsdfdb
+     run: npm test
    # Step C: The Ultimate Test - Does our Dockerfile actually compile?
    - name: Test Docker Build
      run: docker build -t test-api-image .
